@@ -10,4 +10,5 @@ public class SfwPetClinicApplication {
         SpringApplication.run(SfwPetClinicApplication.class, args);
     }
 
+    private boolean work=false;
 }
