@@ -9,6 +9,4 @@ public class SfwPetClinicApplication {
     public static void main(String[] args) {
         SpringApplication.run(SfwPetClinicApplication.class, args);
     }
-
-    private boolean work=false;
 }
