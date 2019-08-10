@@ -1,0 +1,5 @@
+com\ferencz\sfwpetclinic\model\PetType.class
+com\ferencz\sfwpetclinic\model\Person.class
+com\ferencz\sfwpetclinic\model\Pet.class
+com\ferencz\sfwpetclinic\model\Vet.class
+com\ferencz\sfwpetclinic\model\Owner.class
