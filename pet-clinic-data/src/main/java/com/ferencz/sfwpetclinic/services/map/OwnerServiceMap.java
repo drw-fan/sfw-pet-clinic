@@ -2,9 +2,11 @@ package com.ferencz.sfwpetclinic.services.map;
 
 import com.ferencz.sfwpetclinic.model.Owner;
 import com.ferencz.sfwpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstactMapService<Owner, Long> implements OwnerService {
 //    public OwnerServiceMap(Owner owner) {
 //    }
