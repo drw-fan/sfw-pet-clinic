@@ -1,13 +1,13 @@
 package com.ferencz.sfwpetclinic.services.map;
 
 import com.ferencz.sfwpetclinic.model.Owner;
-import com.ferencz.sfwpetclinic.services.CrudService;
+import com.ferencz.sfwpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstactMapService<Owner, Long> implements CrudService<Owner, Long> {
-    public OwnerServiceMap(Owner owner) {
-    }
+public class OwnerServiceMap extends AbstactMapService<Owner, Long> implements OwnerService {
+//    public OwnerServiceMap(Owner owner) {
+//    }
 
     @Override
     public Set<Owner> findAll() {
@@ -27,11 +27,15 @@ public class OwnerServiceMap extends AbstactMapService<Owner, Long> implements C
     @Override
     public void delete(Owner object) {
         super.delete(object);
-
     }
 
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
+    }
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
